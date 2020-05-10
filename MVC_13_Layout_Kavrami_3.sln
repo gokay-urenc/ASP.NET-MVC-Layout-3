@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_13_Layout_Kavrami_3", "MVC_13_Layout_Kavrami_3\MVC_13_Layout_Kavrami_3.csproj", "{71D33F29-59F6-434F-8671-CC024C03F5AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71D33F29-59F6-434F-8671-CC024C03F5AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D33F29-59F6-434F-8671-CC024C03F5AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D33F29-59F6-434F-8671-CC024C03F5AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D33F29-59F6-434F-8671-CC024C03F5AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9AD3EC8-FE91-4B7C-B28A-E2BCC935AD80}
+	EndGlobalSection
+EndGlobal

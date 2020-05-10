@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Sablon</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.9.1.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="nav navbar-inverse">
+            <div class="navbar-brand">
+                Apocalypse
+            </div>
+            <a style="color:white; text-decoration:none;" href="/Home/Index">Anasayfa</a>
+            <a style="color:white; text-decoration:none;" href="@Url.Action("Index", "Hakkimda")">Hakkımda</a>
+            <a style="color:white; text-decoration:none;" href="@Url.Action("Index", "Galeri")">Galeri</a>
+            <a style="color:white; text-decoration:none;" href="@Url.Action("Index", "Iletisim")">İletişim</a>
+        </div>
+        @RenderBody();
+    </div>
+</body>
+</html>
